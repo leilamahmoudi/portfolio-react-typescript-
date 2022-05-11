@@ -34,11 +34,11 @@ body {
   color: var(--color-white);
   line-height: 1.7;
   background: var(--color-bg);
-  background-image: url(../src/assets/images/bg.png);
+  /* background-image: url(../src/assets/images/bg.png);
   opacity: 0.9;
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .container {
@@ -47,6 +47,7 @@ body {
 }
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 section > h2,
 section > h5 {
