@@ -24,3 +24,7 @@ nav .link {
 nav .link:hover {
   background: rgba(0, 0, 0, 0.3);
 }
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-light);
+}
