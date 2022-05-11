@@ -60,11 +60,11 @@ section > h2 {
 .text-light {
   color: var(--color-light);
 }
-link {
+.link {
   color: var(--color-primary);
   transition: var(--transition);
 }
-link:hover {
+.link:hover {
   color: var(--color-white);
 }
 .btn {
