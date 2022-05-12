@@ -39,6 +39,9 @@
   margin: 10px;
   transition: var(--transition);
 }
+.about-image {
+  border-radius: 2rem;
+}
 .about__card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
