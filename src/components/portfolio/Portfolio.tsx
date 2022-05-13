@@ -14,20 +14,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -35,20 +37,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -56,20 +60,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -77,20 +83,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -98,20 +106,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
 
         <article className="portfolio__item">
@@ -119,20 +129,22 @@ const Portfolio = () => {
             <img src={IMG} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a
-            href="https://github.com/leilamahmoudi"
-            className="link btn"
-            target="_blank"
-          >
-            Github
-          </a>
-          <a
-            href="https://dribbble.com/Alien_pixels"
-            className="link btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/leilamahmoudi"
+              className="link btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://dribbble.com/Alien_pixels"
+              className="link btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
