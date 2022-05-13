@@ -1,6 +1,51 @@
 import React from "react";
-import IMG from "../../assets/images/img2.jpeg";
+import IMG1 from "../../assets/images/vegis.png";
 import "./portfolio.css";
+
+const data = [
+  {
+    id: 1,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 2,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 3,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 4,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 5,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 6,
+    img: IMG1,
+    title: "vegis",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+];
 
 const Portfolio = () => {
   return (
@@ -9,143 +54,24 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/leilamahmoudi"
-              className="link btn"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://dribbble.com/Alien_pixels"
-              className="link btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+        {data.map(({ id, img, title, github, demo }) => {
+          return (
+            <article key={id} className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={img} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-cta">
+                <a href={github} className="btn" target="_blank">
+                  Github
+                </a>
+                <a href={demo} className="btn btn-primary" target="_blank">
+                  Live Demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
