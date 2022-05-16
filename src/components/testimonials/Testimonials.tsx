@@ -32,13 +32,13 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>My Testimonials</h5>
+      <h2>Testimonials</h2>
 
       <div className="container testimonials__container">
         {data.map(({ avatar, name, review }, index) => {
           return (
-            <article className="testimonial">
+            <article className="testimonial" key={index}>
               <div className="client__avatar">
                 <img src={avatar} alt={name} />
               </div>
