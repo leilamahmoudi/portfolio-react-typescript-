@@ -18,8 +18,8 @@ function App() {
       <Experience />
       <Services />
       <Portfolio />
-      <Contact />
       <Testimonials />
+      <Contact />
     </div>
   );
 }
