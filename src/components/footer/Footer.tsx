@@ -1,12 +1,15 @@
 import React from "react";
-import { AiOutlineFacebook } from "react-icons/ai";
-import { FiInstagram, FiTwitter } from "react-icons/fi";
+import { AiFillInstagram } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { SiTwitter } from "react-icons/si";
 import "./footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer__log link"></a>
+      <a href="" className="footer__log link">
+        LEILA
+      </a>
       <ul className="permaliks">
         <li>
           <a href="#" className="link">
@@ -41,13 +44,13 @@ const Footer = () => {
       </ul>
       <div className="footer__socials">
         <a href="https://www.facebook.com/leila.mahmoudi.7739" className="link">
-          <AiOutlineFacebook />
+          <FaFacebookF />
         </a>
         <a href="https://twitter.com/leillonn" className="link">
-          <FiTwitter />
+          <SiTwitter />
         </a>
         <a href="https://www.instagram.com/leilaa.mahmoudi/" className="link">
-          <FiInstagram />
+          <AiFillInstagram />
         </a>
       </div>
       <div className="footer__copright">
