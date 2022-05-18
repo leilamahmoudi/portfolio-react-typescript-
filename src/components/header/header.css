@@ -9,7 +9,8 @@ header {
   position: relative;
 }
 .buttons {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
+  /* margin-top: 2.5rem; */
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -48,6 +49,57 @@ header {
   font-weight: 300;
   font-size: 0, 9rem;
 }
+h4 {
+  color: var(--color-primary);
+}
+
+#flip {
+  /* height: 50px; */
+  height: 60px;
+  overflow: hidden;
+}
+
+#flip > div > div {
+  color: var(--color-bg-variant);
+  padding: 4px 12px;
+  /* height: 45px; */
+  height: 60px;
+  font-size: 1.5rem;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header {
     height: 68vh;

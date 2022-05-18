@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import "./testimonials.css";
-import AVTR1 from "../../assets/images/me.jpeg";
+import AVTR1 from "../../assets/images/me.jpg";
 
 const data = [
   {
