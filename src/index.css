@@ -9,19 +9,19 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #22577e;
+  /* --color-bg: #22577e;
   --color-bg-variant: #5584ac;
   --color-primary: #95d1cc;
   --color-primary-variant: #069a8e;
   --color-white: #fff;
-  --color-light: #f1ddbf;
+  --color-light: #f1ddbf; */
 
-  /* --color-bg: #ebeaea;
+  --color-bg: #ebeaea;
   --color-bg-variant: #bfd7b5;
   --color-primary: #475b63;
   --color-primary-variant: #3e5641;
   --color-white: #1b2815;
-  --color-light: #475b63; */
+  --color-light: #475b63;
 
   --transition: all 400ms ease;
 
