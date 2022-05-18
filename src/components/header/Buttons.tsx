@@ -1,9 +1,9 @@
 import React from "react";
-// import CV from "../../assets/images/CV.pdf";
+import CV from "../../assets/images/CV.pdf";
 const Buttons = () => {
   return (
     <div className="buttons">
-      <a href="{CV}" download className="link btn">
+      <a href={CV} download className="link btn">
         Download CV
       </a>
       <a href="#contact" className="link btn btn-primary">
