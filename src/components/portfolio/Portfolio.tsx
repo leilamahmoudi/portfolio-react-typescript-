@@ -1,5 +1,7 @@
 import React from "react";
 import IMG1 from "../../assets/images/vegis.png";
+import IMG2 from "../../assets/images/lending-app.png";
+import IMG3 from "../../assets/images/dictionary.png";
 import "./portfolio.css";
 
 const data = [
@@ -12,17 +14,17 @@ const data = [
   },
   {
     id: 2,
-    img: IMG1,
-    title: "vegis",
-    github: "https://github.com/leilamahmoudi/vegis",
-    demo: "https://vegist-leila.netlify.app/",
+    img: IMG2,
+    title: "lending-app",
+    github: "https://github.com/FeNatalia/lending-app",
+    demo: "https://lending-app-codezilla.herokuapp.com/",
   },
   {
     id: 3,
-    img: IMG1,
-    title: "vegis",
-    github: "https://github.com/leilamahmoudi/vegis",
-    demo: "https://vegist-leila.netlify.app/",
+    img: IMG3,
+    title: "dictionary",
+    github: "https://github.com/leilamahmoudi/dictionary-project",
+    demo: "https://dictionary-leila.netlify.app/",
   },
   {
     id: 4,

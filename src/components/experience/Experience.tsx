@@ -99,6 +99,45 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
+        <div className="experience__backend">
+          <h3>Tools and technologies</h3>
+          <div className="experience__content">
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Mocha/Jest</h4>
+              {/* <small className="text-light">Exprienced</small> */}
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>ExpressJS</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Docker</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>GraphQL</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Git+GitHub/GitHub Actions</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>AWS/Cloud Platforms</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>TDD</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Agile work methods</h4>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -27,27 +27,6 @@ const Services = () => {
                 industry
               </p>
             </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
           </ul>
         </article>
 
@@ -73,26 +52,12 @@ const Services = () => {
                 industry
               </p>
             </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
-            <li>
-              <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
-            </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Full Stack JavaScript</h3>
+            <h3>Visual Arts</h3>
             <h6>University of Culture and Arts – Tehran</h6>
           </div>
           <ul className="service__list">
