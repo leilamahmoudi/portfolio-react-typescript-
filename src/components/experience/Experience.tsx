@@ -8,6 +8,29 @@ const Experience = () => {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container expeience__container">
+        <div className="experience__generall">
+          <h3>General</h3>
+          <div className="experience__content">
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>JavaScript</h4>
+              {/* <small className="text-light">Exprienced</small> */}
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>TypeScript</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Photoshop</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Coreldraw</h4>
+            </article>
+          </div>
+        </div>
+
         <div className="experience__frontend">
           <h3>Fontend Develpment</h3>
           <div className="experience__content">

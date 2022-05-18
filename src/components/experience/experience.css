@@ -1,11 +1,11 @@
 .expeience__container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 .expeience__container > div {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 4rem 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -18,7 +18,7 @@
 .expeience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--color-primary);
+  color: var(--color-light);
 }
 .experience__content {
   display: grid;

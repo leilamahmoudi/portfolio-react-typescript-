@@ -21,27 +21,27 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>+7 Years Working</small>
+              <h5>EDUCATION & TRAINING</h5>
+              {/* <small>+7 Years Working</small> */}
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200 Worldwide</small>
+              <h5>WORK EXPERIENCE</h5>
+              {/* <small>200 Worldwide</small> */}
             </article>
 
             <article className="about__card">
               <MdOutlineLibraryBooks className="about__icon" />
-              <h5>Project</h5>
-              <small>+80</small>
+              <h5>PROJECTS</h5>
+              {/* <small>+80</small> */}
             </article>
           </div>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I'm a FullStack JS developer based in Stockholm with a background in
+            Arts. I define myself as a super passionate, eager to learn, ready
+            to grow developer who couldn't be more excited to pursue my
+            ambitions.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
