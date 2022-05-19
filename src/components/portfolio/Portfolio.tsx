@@ -1,58 +1,60 @@
 import React from "react";
-import IMG1 from "../../assets/images/vegis.png";
-import IMG2 from "../../assets/images/lending-app.png";
-import IMG3 from "../../assets/images/dictionary.png";
-import IMG4 from "../../assets/images/weather.png";
-import IMG5 from "../../assets/images/todo.png";
+import IMG2 from "../../assets/images/vegis.png";
+import IMG3 from "../../assets/images/lending-app.png";
+import IMG4 from "../../assets/images/dictionary.png";
+import IMG5 from "../../assets/images/weather.png";
+import IMG1 from "../../assets/images/todo.png";
+import IMG6 from "../../assets/images/movie.png";
 import "./portfolio.css";
 
 const data = [
   {
     id: 1,
     img: IMG1,
-    title: "Vegis",
-    tech: "MongoDB,Express.js,React ,Node.js",
+    title: "Todo",
+    tech: "React & Redux in TypeScript",
     github: "https://github.com/leilamahmoudi/vegis",
     demo: "https://vegist-leila.netlify.app/",
   },
   {
     id: 2,
     img: IMG2,
+    title: "Vegis",
+    tech: "Javascript, React, Sass, PropTypes",
+    github: "https://github.com/leilamahmoudi/vegis",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
+    id: 3,
+    img: IMG3,
     title: "Lending-app",
     tech: "MongoDB,Express.js,React ,Node.js",
     github: "https://github.com/FeNatalia/lending-app",
     demo: "https://lending-app-codezilla.herokuapp.com/",
   },
   {
-    id: 3,
-    img: IMG3,
+    id: 4,
+    img: IMG4,
     title: "Dictionary",
-    tech: "MongoDB,Express.js,React ,Node.js",
+    tech: "React, Css",
     github: "https://github.com/leilamahmoudi/dictionary-project",
     demo: "https://dictionary-leila.netlify.app/",
   },
   {
-    id: 4,
-    img: IMG4,
+    id: 5,
+    img: IMG5,
     title: "Weather",
-    tech: "MongoDB,Express.js,React ,Node.js",
+    tech: "HTML, Css, Javascript",
     github: "https://github.com/leilamahmoudi/test_project",
     demo: "https://weather-ver1-leila.netlify.app/",
   },
-  {
-    id: 5,
-    img: IMG5,
-    title: "todo",
-    tech: "MongoDB,Express.js,React ,Node.js",
-    github: "https://github.com/leilamahmoudi/vegis",
-    demo: "https://vegist-leila.netlify.app/",
-  },
+
   {
     id: 6,
-    img: IMG1,
-    title: "vegis",
+    img: IMG6,
+    title: "personal Movie Collection",
     tech: "MongoDB,Express.js,React ,Node.js",
-    github: "https://github.com/leilamahmoudi/vegis",
+    github: "https://github.com/leilamahmoudi/personalMovieCollection",
     demo: "https://vegist-leila.netlify.app/",
   },
 ];
