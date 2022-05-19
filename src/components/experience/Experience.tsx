@@ -20,14 +20,6 @@ const Experience = () => {
               <FiCheckCircle className="experinece__details-icon" />
               <h4>TypeScript</h4>
             </article>
-            <article className="experinece__details">
-              <FiCheckCircle className="experinece__details-icon" />
-              <h4>Photoshop</h4>
-            </article>
-            <article className="experinece__details">
-              <FiCheckCircle className="experinece__details-icon" />
-              <h4>Coreldraw</h4>
-            </article>
           </div>
         </div>
 
@@ -122,11 +114,11 @@ const Experience = () => {
             </article>
             <article className="experinece__details">
               <FiCheckCircle className="experinece__details-icon" />
-              <h4>Git+GitHub/GitHub Actions</h4>
+              <h4>Git+GitHub</h4>
             </article>
             <article className="experinece__details">
               <FiCheckCircle className="experinece__details-icon" />
-              <h4>AWS/Cloud Platforms</h4>
+              <h4>Cloud Platforms</h4>
             </article>
             <article className="experinece__details">
               <FiCheckCircle className="experinece__details-icon" />
@@ -134,7 +126,11 @@ const Experience = () => {
             </article>
             <article className="experinece__details">
               <FiCheckCircle className="experinece__details-icon" />
-              <h4>Agile work methods</h4>
+              <h4>Photoshop</h4>
+            </article>
+            <article className="experinece__details">
+              <FiCheckCircle className="experinece__details-icon" />
+              <h4>Coreldraw</h4>
             </article>
           </div>
         </div>
