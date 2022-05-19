@@ -86,7 +86,7 @@ section > h2 {
 }
 .btn:hover {
   background: var(--color-white);
-  color: var(--color-bg);
+  color: var(--color-bg-variant);
   background-color: transparent;
 }
 
