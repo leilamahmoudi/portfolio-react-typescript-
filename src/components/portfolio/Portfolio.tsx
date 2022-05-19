@@ -9,6 +9,14 @@ import "./portfolio.css";
 
 const data = [
   {
+    id: 6,
+    img: IMG6,
+    title: "personal Movie Collection",
+    tech: "MongoDB,Express.js,React ,Node.js",
+    github: "https://github.com/leilamahmoudi/personalMovieCollection",
+    demo: "https://vegist-leila.netlify.app/",
+  },
+  {
     id: 1,
     img: IMG1,
     title: "Todo",
@@ -47,15 +55,6 @@ const data = [
     tech: "HTML, Css, Javascript",
     github: "https://github.com/leilamahmoudi/test_project",
     demo: "https://weather-ver1-leila.netlify.app/",
-  },
-
-  {
-    id: 6,
-    img: IMG6,
-    title: "personal Movie Collection",
-    tech: "MongoDB,Express.js,React ,Node.js",
-    github: "https://github.com/leilamahmoudi/personalMovieCollection",
-    demo: "https://vegist-leila.netlify.app/",
   },
 ];
 

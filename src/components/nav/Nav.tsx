@@ -24,19 +24,20 @@ const Nav = () => {
       >
         <FiUser />
       </a>
-      <a
-        href="#experience"
-        onClick={() => setActive("#experience")}
-        className={active === "#experience" ? "active link" : "link"}
-      >
-        <RiMacbookLine />
-      </a>
+
       <a
         href="#services"
         onClick={() => setActive("#services")}
         className={active === "#services" ? "active link" : "link"}
       >
         <MdOutlineDesignServices />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActive("#experience")}
+        className={active === "#experience" ? "active link" : "link"}
+      >
+        <RiMacbookLine />
       </a>
       <a
         href="#contact"
