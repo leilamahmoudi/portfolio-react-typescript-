@@ -16,16 +16,12 @@ const Services = () => {
               <FaCheck className="service__list-icon" />
               <p>
                 Intensive three month training program for full stack web
-                development with a focus on TDD, mob programming, and applied
-                learnin
+                development.
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
-              </p>
+              <p>Focus on TDD, mob programming, and applied learnin</p>
             </li>
           </ul>
         </article>
@@ -40,16 +36,20 @@ const Services = () => {
               <FaCheck className="service__list-icon" />
               <p>
                 During these 9 months, I studied ReactJS, Javascript, HTML, CSS,
-                and completed some portfolios. I also learned how to work with
-                APIs, how to use GitHub to commit and push my code, and how to
-                eventually build and deploy my projects using Netlify.
+                and completed some portfolios.
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                I also learned how to work with APIs, how to use GitHub to
+                commit and push my code.
+              </p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>
+                how to eventually build and deploy my projects using Netlify.
               </p>
             </li>
           </ul>
@@ -64,22 +64,22 @@ const Services = () => {
             <li>
               <FaCheck className="service__list-icon" />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                Utilized Photoshop and Illustrator in combination with
+                traditional tools to create and enhance illustrations
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                Experienced in multiple media, including photography, drawing,
+                painting, theater set design, graphic design,
               </p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+                Exhibited artist with local, regional, interior design, art
+                exhibition, and children's art
               </p>
             </li>
           </ul>
